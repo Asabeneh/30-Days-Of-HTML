@@ -1,8 +1,10 @@
 # 30 Days Of HTML
+- [30 Days Of HTML](#30-days-of-html)
+  - [Terminologies](#terminologies)
 
 | # Day |             Topics             |
 | ----- | :----------------------------: |
-| 01    | [Introduction](./readMemd)   |
+| 01    |   [Introduction](./readMemd)   |
 | 02    | [DOM(Document Object Model)]() |
 | 03    |              []()              |
 | 04    |              []()              |
@@ -47,6 +49,31 @@
 </div>
 </div>
 
-[Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[Day 2 >>](./)
 
-![Thirty Days Of JavaScript](./images/DAY_1.png)
+![30 Days Of HTML](./images/DAY_1.png)
+
+## Terminologies
+
+_client_, _server_, _web developer_, _web designer_, _UI_, _UX_,_web development_, _browser_, _code editor_, _command lines_,_Git_, _GitHub_, _Version Control_, _semantic_, _accessibility_, _responsiveness_, _compatibility_, _request_, _response_, _HTML_, _CSS_, _JavaScript_, _viewport_, _blocking element_, _non-blocking element_,_tag_, _opening tag_, _closing tag_, _self closing tag_, _attribute_, _style_, _script_, _property_, _value_, _render_, _comment_, _HTTP_,_path_, _URL_, _absolute path_, _relative path_, _landing page_, _single page application_, _hero image_, _HTML element_, _content_, _SEO_, _feature image_, _carousel_, _sidebar_
+
+Parts of a website
+
+Taskbar title
+Website Logo
+Header/Banner
+Navigation Bar/Menu Bar
+Body
+Section
+Forms
+Buttons
+Links
+Images
+Videos
+Audios
+
+Pages
+Social Links
+Footer
+
+
