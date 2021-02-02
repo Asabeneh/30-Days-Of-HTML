@@ -899,6 +899,7 @@ I like to start a new line
 This is the third line. The pre tag is 
 good to use when a space is need to be
 preserved for instance for poem.</pre>
+
 <u>I am underlined</u>
 
 ![formatting example](./images/formatting-example.png)
