@@ -738,6 +738,11 @@ Congratulations! You have completed Day 3 challenge
 
 ## Exercise
 
+1. What is the acronym DOM stands for?
+2. What is the root of the DOM tree?
+3. What are the children of *html* tag
+4. How many children can the head have?
+5. How many children can the body have?  
 Make a DOM tree of the following HTML code
 
 ```html
