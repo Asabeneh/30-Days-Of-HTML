@@ -18,15 +18,17 @@
     - [Browser](#browser)
     - [Code Editor](#code-editor)
     - [How to use Visual Studio Code](#how-to-use-visual-studio-code)
-- [Introductin to HTML](#introductin-to-html)
-  - [History of HTML](#history-of-html)
-  - [What is HTML?](#what-is-html)
+  - [Introductin to HTML](#introductin-to-html)
+    - [History of HTML](#history-of-html)
+    - [What is HTML?](#what-is-html)
     - [HTML Element](#html-element)
     - [Attribute](#attribute)
     - [HTML Comment](#html-comment)
   - [Exercise](#exercise)
 - [Day 3](#day-3)
   - [DOM](#dom)
+    - [Declaration](#declaration)
+    - [Root Element](#root-element)
     - [Heading Elements](#heading-elements)
     - [Paragraph Element](#paragraph-element)
     - [Section Element](#section-element)
@@ -37,10 +39,22 @@
   - [Exercise](#exercise-1)
 - [Day 4](#day-4)
   - [Blocking and Non-blocking Elements](#blocking-and-non-blocking-elements)
+  - [Exercises](#exercises-1)
 - [Day 5](#day-5)
+  - [HTML5 Formatting Elements](#html5-formatting-elements)
+  - [Exercises](#exercises-2)
+- [Day 6](#day-6)
   - [HTML5 Semantic Elements](#html5-semantic-elements)
-- [Day 5](#day-5-1)
-  - [HTML5 Semantic Elements](#html5-semantic-elements-1)
+- [Day 7](#day-7)
+  - [HTML Form](#html-form)
+- [Day 8](#day-8)
+  - [Meta tags](#meta-tags)
+- [Day 9](#day-9)
+  - [HTML Table](#html-table)
+- [Day 10](#day-10)
+  - [Lists](#lists)
+- [Day 11](#day-11)
+  - [File Paths](#file-paths)
 
 | # Day |             Topics             |
 | ----- | :----------------------------: |
@@ -235,13 +249,13 @@ I will use Visual studio code and I will use it in this challenge too. I strongl
 
 ### How to use Visual Studio Code
 
-# Introductin to HTML
+## Introductin to HTML
 
-## History of HTML
+### History of HTML
 
 The initial release of HTML was 1993. The first version of HTML was written by Tim Berners-Lee in 1993. HTML has been evolving for the last three decades and the now the latest version is HTML5.
 
-## What is HTML?
+### What is HTML?
 
 The word HTML is an acronym. That is stands for Hypertext Markup Language. It is the standard markup languages to develop websites. HTML is the build block of the web that allows building layouts of page using HTML elements. HTML is not not a programming language instead it is a markup language.
 
@@ -366,15 +380,41 @@ Comment in any programming language help a code to be more readable. Therefore, 
 
 ## DOM
 
-In this section, we will start writing the DOM tree of an HTML document or file. DOM stands for Document Object Model. The DOM is structure like a true. It starts with an _html_ root element followed by head and body. The head and the body are the immediate children of the root element, _html_.
-Create folder on the desktop and give it any name and even you may call it (30DaysOfHTML), inside this folder create an index.html file. Every HTML file has to end with .html extension. And it is good to have at least on index.html file in the project and the reset of the file will have different names.
+In this section, we will start writing the DOM tree of an HTML document or file. DOM stands for Document Object Model. The DOM is structure like a true. It starts with an _html_ root element followed by head and body. The head and the body are the immediate children of the root element, _html_. Before the root element, there is a declaration.
+
+### Declaration
 
 Before the root element, there is a declaration. This declaration tells the browser that the document is an HTML. Therefore, the browser render it to the way an HTML suppose to be rendered.
-This is the code to declare an HTML.
+This is the code to declare an HTML. The declaration is not part of the DOM tree.
 
 ```html
 <!DOCTYPE html>
 ```
+
+### Root Element
+
+The _html_ element is the root of the DOM tree and is the parent of _head_ and _body_.
+
+The DOM try has be wrapped by the html tag.
+
+```html
+<!DOCTYPE html>
+<html></html>
+```
+
+The _html_ tag with two children, head and body.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    content goes here
+  </body>
+</html>
+```
+
+Create folder on the desktop and give it any name and even you may call it (30DaysOfHTML), inside this folder create an index.html file. Every HTML file has to end with a .html extension. And it is good to have at least on index.html file in the a project and the reset of the file will have different names.
 
 This a simplistic DOM structure that contains _html_, _head_, _title_, _body_, _h1_ elements.
 
@@ -728,14 +768,161 @@ Make a DOM tree of the following HTML code
   </body>
 </html>
 ```
+
 # Day 4
 
 ## Blocking and Non-blocking Elements
 
+HTML elements are like a box. Some elements take the whole width of the view port while some take as much space that fit only for the content. In another way, some elements do not allow other elements to come next them both in the left and right side, however, some elements allow other elements to come next to them.
+
+- Blocking elements take the whole width of the viewport.
+- Non-blocking element only take a space that is enough for the content.
+
+List of blocking elements:
+
+```sh
+<address>
+<article>
+<aside>
+<blockquote>
+<canvas>
+<dd>
+<div>
+<dl>
+<dt>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1>-<h6>
+<header>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol>
+<p>
+<pre>
+<section>
+<table>
+<tfoot>
+<ul>
+<video>
+```
+
+List of non-blocking elements
+
+```sh
+<a>
+<abbr>
+<acronym>
+<b>
+<bdo>
+<big>
+<br>
+<button>
+<cite>
+<code>
+<dfn>
+<em>
+<i>
+<img>
+<input>
+<kbd>
+<label>
+<map>
+<object>
+<output>
+<q>
+<samp>
+<script>
+<select>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<textarea>
+<time>
+<tt>
+<var>
+```
+
+To create a new line between non-blocking elements we can use the break(br) element.
+
+## Exercises
+
+Comming ...
+
 # Day 5
+
+## HTML5 Formatting Elements
+
+We format text in different form on daily basis. Every Microsoft office users know how to format a text on Microsoft office document. Similarly, we can format text on a web using different HTML elements.
+
+HTML Formatting Elements
+
+```sh
+- <b> - Create bold text
+- <strong> - Make an important text
+- <i> -  Make italic text
+- <em> -  Make emphases to text
+- <mark> - Marks text
+- <small> - Make smaller text
+- <del> - Deleted text
+- <ins> - Inserted text
+- <sub> - Subscript text
+- <sup> - Superscript text
+- <pre> - Preserve text space
+- <u> -To underline
+```
+
+I want to be <b>bold Text </b>
+I am very <strong>important text </strong>
+I want to be <i>an italic text </i>
+I am <em>emphasized text </em>
+I am <mark> marked text </mark>
+I am <small>a smaller text </small>
+I am <del> deleted text </del>
+My favorite language is not <del>Python</del>. It is <ins>JavaScript</ins>
+2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub> O<sub></sub>
+2<sup>10</sup> = 1024
+
+<pre>I like to make break her
+I like to start a new line
+This is the third line. The pre tag is 
+good to use when a space is need to be
+preserved for instance for poem.</pre>
+
+<u>I am underlined</u>
+
+## Exercises
+
+Create the following text using the formatting elements.
+![Text formatting](./images/text-formating.png)
+
+# Day 6
 
 ## HTML5 Semantic Elements
 
-# Day 5
+# Day 7
 
-## HTML5 Semantic Elements
+## HTML Form
+
+# Day 8
+
+## Meta tags
+
+# Day 9
+
+## HTML Table
+
+# Day 10
+
+## Lists
+
+# Day 11
+
+## File Paths
