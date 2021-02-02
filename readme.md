@@ -740,10 +740,10 @@ Congratulations! You have completed Day 3 challenge
 
 1. What is the acronym DOM stands for?
 2. What is the root of the DOM tree?
-3. What are the children of *html* tag
+3. What are the children of _html_ tag
 4. How many children can the head have?
 5. How many children can the body have?  
-Make a DOM tree of the following HTML code
+   Make a DOM tree of the following HTML code
 
 ```html
 <!DOCTYPE html>
@@ -786,35 +786,35 @@ HTML elements are like a box. Some elements take the whole width of the view por
 List of blocking elements:
 
 ```sh
-<address>
-<article>
-<aside>
-<blockquote>
-<canvas>
-<dd>
-<div>
-<dl>
-<dt>
-<fieldset>
-<figcaption>
-<figure>
-<footer>
+<address></address>
+<article></article>
+<aside></aside>
+<blockquote></blockquote>
+<canvas></canvas>
+<dd></dd>
+<div></div>
+<dl></dl>
+<dt></dt>
+<fieldset></fieldset>
+<figcaption></figcaption>
+<figure></figure>
+<footer></footer>
 <form>
-<h1>-<h6>
-<header>
-<hr>
-<li>
-<main>
-<nav>
-<noscript>
-<ol>
-<p>
-<pre>
-<section>
-<table>
-<tfoot>
-<ul>
-<video>
+<h1></h1> to <h6></h6>
+<header></header>
+<hr />
+<li></li>
+<main></main>
+<nav><nav>
+<noscript></noscript>
+<ol></ol>
+<p></p>
+<pre></pre>
+<section><section>
+<table></table>
+<tfoot><tfoot>
+<ul><ul>
+<video></video>
 ```
 
 List of non-blocking elements
@@ -823,6 +823,7 @@ List of non-blocking elements
 <a>
 <abbr>
 <acronym>
+<audio>
 <b>
 <bdo>
 <big>
@@ -897,7 +898,7 @@ I am <small>a smaller text </small>
 I am <del> deleted text </del>  
 My favorite language is not <del>Python</del>. It is <ins>JavaScript</ins>  
 2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub> O<sub></sub>
-2<sup>10</sup> = 1024  
+2<sup>10</sup> = 1024
 
 <pre>I like to make break her
 I like to start a new line
