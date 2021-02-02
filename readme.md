@@ -854,7 +854,11 @@ To create a new line between non-blocking elements we can use the break(br) elem
 
 ## Exercises
 
-Comming ...
+1. What is blocking element?
+2. What is non-blocking element?
+3. What is the difference between block and non-blocking elements?
+4. List at least five blocking elements
+5. List at least five non-blocking elements
 
 # Day 5
 
@@ -895,7 +899,6 @@ I like to start a new line
 This is the third line. The pre tag is 
 good to use when a space is need to be
 preserved for instance for poem.</pre>
-
 <u>I am underlined</u>
 
 ## Exercises
