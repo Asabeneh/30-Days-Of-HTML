@@ -901,6 +901,8 @@ good to use when a space is need to be
 preserved for instance for poem.</pre>
 <u>I am underlined</u>
 
+![formatting example](./images/formatting-example.png)
+
 ## Exercises
 
 Create the following text using the formatting elements.
