@@ -883,16 +883,16 @@ HTML Formatting Elements
 - <u> -To underline
 ```
 
-I want to be <b>bold Text </b>
-I am very <strong>important text </strong>
-I want to be <i>an italic text </i>
-I am <em>emphasized text </em>
-I am <mark> marked text </mark>
-I am <small>a smaller text </small>
-I am <del> deleted text </del>
-My favorite language is not <del>Python</del>. It is <ins>JavaScript</ins>
+I want to be <b>bold Text </b>  
+I am very <strong>important text </strong>  
+I want to be <i>an italic text </i>  
+I am <em>emphasized text </em>  
+I am <mark> marked text </mark>  
+I am <small>a smaller text </small>  
+I am <del> deleted text </del>  
+My favorite language is not <del>Python</del>. It is <ins>JavaScript</ins>  
 2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub> O<sub></sub>
-2<sup>10</sup> = 1024
+2<sup>10</sup> = 1024  
 
 <pre>I like to make break her
 I like to start a new line
