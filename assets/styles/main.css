@@ -1,0 +1,90 @@
+#title {
+  color: rgb(221, 204, 204);
+}
+#menu {
+  background: rgb(194, 199, 194);
+}
+
+#menu li {
+  list-style: none;
+  margin: 15px;
+  display: inline-block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+/* .section {
+
+      } */
+
+.section {
+  margin: 50px;
+  padding: 30px;
+  border-radius: 5px;
+}
+#section-1 {
+  background-color: rgb(177, 231, 177);
+}
+
+#section-2 {
+  background-color: rgb(108, 238, 238);
+}
+#section-3 {
+  background-color: rgb(97, 82, 163);
+}
+#section-4 {
+  background-color: rgb(243, 195, 91);
+}
+
+/* CSS for Projects */
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  font-size: 42px;
+}
+
+#box-1 {
+  background-color: rgb(116, 226, 116);
+}
+#box-2 {
+  background-color: yellow;
+}
+#box-3 {
+  background-color: rgb(231, 118, 118);
+}
+#boxes {
+  text-align: center;
+}
+
+#videos {
+  text-align: center;
+}
+
+hr {
+  height: 3px;
+  background-color: gray;
+}
+
+/* icons style */
+i {
+  font-size: 32px;
+  margin: 30px;
+}
+.fa-github-square {
+  color:#333;
+}
+.fa-linkedin{
+  color:#0077b5;
+}
+.fa-twitter-square{
+  color:#1da1f2;
+}

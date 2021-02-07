@@ -46,8 +46,10 @@
 - [Day 6](#day-6)
   - [HTML5 Semantic Elements](#html5-semantic-elements)
 - [Day 7](#day-7)
-  - [HTML Form](#html-form)
+  - [HTML Document metadata](#html-document-metadata)
+  - [Exercises](#exercises-3)
 - [Day 8](#day-8)
+  - [HTML Form](#html-form)
   - [Meta tags](#meta-tags)
 - [Day 9](#day-9)
   - [HTML Table](#html-table)
@@ -248,6 +250,7 @@ As web developer, you should write code using a text or code editor. Therefore, 
 I will use Visual studio code and I will use it in this challenge too. I strongly suggest to use Visual Studio Code because it has lots of productivity extensions that makes super productive. Now, let's [download](https://code.visualstudio.com/) visual studio code.
 
 ### How to use Visual Studio Code
+To know  how to use visual studio code, watch the following [video](https://www.youtube.com/watch?v=vSyq1ENoovI)
 
 ## Introductin to HTML
 
@@ -786,74 +789,208 @@ HTML elements are like a box. Some elements take the whole width of the view por
 List of blocking elements:
 
 ```sh
-<address></address>
-<article></article>
-<aside></aside>
-<blockquote></blockquote>
-<canvas></canvas>
-<dd></dd>
-<div></div>
-<dl></dl>
-<dt></dt>
-<fieldset></fieldset>
-<figcaption></figcaption>
-<figure></figure>
-<footer></footer>
-<form>
-<h1></h1> to <h6></h6>
-<header></header>
-<hr />
-<li></li>
-<main></main>
-<nav><nav>
-<noscript></noscript>
-<ol></ol>
-<p></p>
-<pre></pre>
-<section><section>
-<table></table>
-<tfoot><tfoot>
-<ul><ul>
-<video></video>
+<address></address> - allows to write an address related information
+<article></article> - allows to write articles in a section
+<aside></aside> - allows to create a section that is indirectly related to the document
+<blockquote></blockquote> - to create text a quoation mark
+<canvas></canvas> - to create canbas
+<dd></dd> - to describe a term or name in a description list
+<div></div> - to create section or box
+<dl></dl> - to create a description list
+<dt></dt> - describes a term a description list
+<fieldset></fieldset> - to create related elements in a from
+<figcaption></figcaption> - define figure caption
+<figure></figure> - to wrap figure, diagram, etc
+<footer></footer> - to create footer of a document
+<form> - to create a form
+<h1></h1> to <h6></h6> - to create different size headings
+<header></header> - to create header of a document
+<hr /> - to create a horizontal line
+<li></li> - create order or an unordered list
+<main></main> - to wrap the main content of the document
+<nav><nav> - to create navigation
+<noscript></noscript> - describe an alternative content to be displayed to users when JS has disabled on their browsers.
+<ol></ol> - to create an ordered list
+<p></p> - to creat paragraph
+<pre></pre> - to create a space preserved content, eg poem
+<section><section> - to create section
+<table></table> - to create table
+<tfoot><tfoot> - to create a table footer
+<ul><ul> - to wrap order or unorder list
+<video></video> - to create a video content
+```
+Now, let's use some of the blocking elements in following snippet of code.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30 Days Of HTML</title>
+  </head>
+  <body>
+    <header>
+      <span style="color: #e34c26">H</span>
+      <span style="color: #264de4">T</span>
+      <span style="color: #f0db4f">M</span>
+      <span style="color: #61dbfb">L</span>
+    </header>
+    <main>
+      <section>
+        <h1 id="first-title">The Building Blocks of the web</h1>
+       <article>
+          <p>
+          There is not website without HTML. Learn HTML and build websites and
+          web applications
+        </p>
+         </article>
+      </section>
+
+      <section>
+        <h2>Front end Technologis</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          </ul>
+        </section>
+      <section>
+        <video src="./assets/video/js-project.mp4"></video>
+      </section>
+    </main>
+    <footer>
+      <small>Copyright 2021 | Asabeneh Yetayeh</small>
+    </footer>
+  </body>
+</html>
 ```
 
 List of non-blocking elements
 
 ```sh
-<a>
-<abbr>
-<acronym>
-<audio>
-<b>
-<bdo>
-<big>
-<br>
-<button>
-<cite>
-<code>
-<dfn>
-<em>
-<i>
-<img>
-<input>
-<kbd>
-<label>
-<map>
-<object>
-<output>
-<q>
-<samp>
-<script>
-<select>
-<small>
-<span>
-<strong>
-<sub>
-<sup>
-<textarea>
-<time>
-<tt>
-<var>
+<a> - to create a link
+<abbr> - to create abbreviation
+<acronym> - to create an acronym
+<audio> - to create or embed an audio
+<b> - to make bold
+<bdo> - to reverse a text
+<big> - to make text big
+<br> - to make a line break
+<button> - to create a button
+<cite> - to add citation
+<code> - to write code on HTML
+<dfn> - to write definition using HTML
+<em> - to make an emphasise
+<i> - to make italic
+<img> - to create an image
+<input> - to create an input field
+<kbd> - to define keyboard inputs
+<label> - to create a label for input fields
+<map> - to define an image map
+<object> - to represent an external resource that used to multimedia such as audios, videos, images, pdf, etc
+<output> - to represent a result of a calculation
+<q> - short quotation
+<samp> - to represent sample output
+<script> - to write JS code
+<select> - to select items
+<small> - to write small size texts
+<span> - to mark or separate a text
+<strong> - to make text with strong importance
+<sub> - to create subscript
+<sup> - to make superscript
+<textarea> - to create a text area
+<time>- represents a specific period of time
+<tt> - to represent inline teletype
+<var> - is used to define a variable 
+```
+
+Let's make use of the above tags in the previous snippet of code. 
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30 Days Of HTML</title>
+  </head>
+  <body>
+    <header>
+      <span style="color: #e34c26">H</span>
+      <span style="color: #264de4">T</span>
+      <span style="color: #f0db4f">M</span>
+      <span style="color: #61dbfb">L</span>
+    </header>
+    <main>
+      <section>
+        <h1 id="first-title">The Building Blocks of the web</h1>
+       <article>
+          <p>
+          There is not website without HTML. Learn HTML and build websites and
+          web applications
+        </p>
+         </article>
+      </section>
+      <section>
+        <h2>Front end Technologis</h2>
+        <!-- Unorder list -->
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          </ul>
+          <!-- Ordered list -->
+          <p>Ten most populated countries</p>
+          <ol>
+            <li>China<li>
+            <li>India<li>
+            <li>USA<li>
+            <li>Indonesia<li>
+            <li>Brasil<li>
+            <li>Pakistan<li>
+            <li>Nigeria<li>
+            <li>Bangladesh<li>
+            <li>Russia</li>
+            <li>Japan</li>
+
+          </ol>
+            <!-- To link an image: img tag and src attribute, we putthe path in the src -->
+          <img src ='./assets/images/html.png' alt='HTML Logo'>
+            <img src ='./assets/images/css_logo.png' alt='CSS Logo'>
+           <img src ='./assets/images/js_logo.png' alt='JS Logo'>
+            <img src ='./assets/images/css_logo.png' alt='CSS Logo'>
+        </section>
+        <!-- button allows to do some acction -->
+        <button onclick = "alert('Welcome to 30 DaysOfHTML')"> Click Me</button>
+
+        <section>
+          <h1>Audios</h1>
+          <audio controls>
+            <source src="./assets/audios/audio_1.mp3" />
+            </audio>
+             <audio controls>
+            <source src="./assets/audios/audio_2.mp3" />
+            </audio>
+             <audio controls>
+      
+        </section>
+       
+    </main>
+    <footer>
+      <small>Copyright 2021 | Asabeneh Yetayeh</small>
+      <!-- Social Link: -->
+      <ul>
+        <li>
+          <!-- a tag takes href attribute to target a link resource -->
+          <a href="https://www.linkedin.com/in/asabeneh/">LinkedIn</a>
+          </li>
+            <li>
+          <a href="https://twitter.com/Asabeneh">Twitter</a>
+          </li>
+            <li>
+          <a href="https://github.com/Asabeneh">GitHub</a>
+          </li>
+        </ul>
+    </footer>
+  </body>
+</html>
 ```
 
 To create a new line between non-blocking elements we can use the break(br) element.
@@ -919,11 +1056,129 @@ Create the following text using the formatting elements.
 
 ## HTML5 Semantic Elements
 
+Semantic elements have special meaning and describes it  meaning to the browser.  For instance, *<div>* and *<span>* are not semantic elements because they do not give any meaning to a browser. However, *<header>* or *<foot>* is a semantic element because it clearly describe and defines its content. 
+List of some semantic elements:
+
+```bash
+ <article> 
+ <aside>
+ <details>
+ <figcaption>
+ <figure>
+ <footer>
+ <header>
+ <main>
+ <mark>
+ <nav>
+ 
+ <section>
+ <summary>
+ <time>
+```
+To know more about each semantic element, you can read this [article](https://www.freecodecamp.org/news/semantic-html5-elements/).
+
+
+
 # Day 7
 
-## HTML Form
+## HTML Document metadata
 
+The HTML document starts with a declaration followed by the root *<html>* tag. Inside the *<html>* tag, there is *<head>* and *<body>*. The *<head>* contains the HTML document *metadata*. Metadata contains information about the page that includes styles, scripts, and data to help software user and render the page. In this section, we will learn how to  use the different metadata. Look at the table blow understand the different metadata.
+
+![](./images/metadata.png)
+
+Source, [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+- base: The base tag refers to the base URL for all relative URLs in a document
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- character encoding for the HTML document -->
+    <meta charset='UTF-8' />
+
+     <!-- the following meta tags for Search engine optimization(SEO)-->
+    <meta name="description" content="30 Days of HTML Challenge">
+    <meta name="keywords" content="HTML, CSS, Web Development">
+    <meta name="author" content="Asabeneh Yetayeh">
+    <!-- base url https://www.30daysofreact.com -->
+    <base href=" https://www.30daysofreact.com" target="_blank" />
+    <!-- Goes to the task bar on the browser-->
+    <title>30 Days Of HTML</title>
+        <!-- to lik external css -->
+
+    <link rel='stylesheet' href="" />
+     <!-- inline styling is very tideous, we can also use internal style
+     we can use tag name, id or class to select an element. Id is unique and class is for a single or group of elements
+
+     When we select by id we use # followed by the id name and if we select by class name we use . followed by a class name.
+     
+     -->
+     <style>
+       .letter {
+         font-size: 68px;
+       }
+       #letter-h{
+         color:#e34c26;
+       }
+       #letter-t{
+         color:#264de4;
+       }
+      #letter-m{
+      color:#f0db4f;
+       }
+      #letter-l{
+color:#61dbfb
+       }
+    </style>
+     <!-- The script tag allows to write JS code -->
+     <script>
+       console.log('Welcome to 30 Days of JavaScript')
+    </script>
+  </head>
+  <body>
+    <header>
+      <span class="letter"  id='letter-h'>H</span>
+      <span class="letter"  id='letter-t'>T</span>
+      <span class="letter" id='letter-m'>M</span>
+      <span class="letter" id='letter-l'>L</span>
+    </header>
+    <main>
+      <section>
+        <h1 id="first-title">The Building Blocks of the web</h1>
+        <p>
+          There is not website without HTML. Learn HTML and build websites and
+          web applications
+        </p>
+        <a href="/course/30-days-of-htm.html">30 Days Of HTML</a>
+      </section>
+    </main>
+    <footer>
+      <small>Copyright 2021 | Asabeneh Yetayeh</small>
+    </footer>
+  </body>
+</html>
+```
+
+Congratulations! Now, you knew about metadata.
+
+## Exercises
+
+1. What are metadata elements?
+2. What is id?
+3. What is the difference between id and class?
+4. What the is the difference between style and script?
+5. What is SEO?
+6. Which meta tags help to improve SEO?
+7. What is internal style?
+8. What tag do you use to write external style?
+9. What is the difference between internal style and external style?
+10. What HTML tag do you use to write a JavaScript code?
+   
 # Day 8
+
+## HTML Form
 
 ## Meta tags
 
