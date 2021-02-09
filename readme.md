@@ -50,13 +50,13 @@
   - [Exercises](#exercises-3)
 - [Day 8](#day-8)
   - [HTML Form](#html-form)
-  - [Meta tags](#meta-tags)
 - [Day 9](#day-9)
   - [HTML Table](#html-table)
 - [Day 10](#day-10)
   - [Lists](#lists)
 - [Day 11](#day-11)
   - [File Paths](#file-paths)
+  - [Meta tags](#meta-tags)
 
 | # Day |             Topics             |
 | ----- | :----------------------------: |
@@ -250,7 +250,8 @@ As web developer, you should write code using a text or code editor. Therefore, 
 I will use Visual studio code and I will use it in this challenge too. I strongly suggest to use Visual Studio Code because it has lots of productivity extensions that makes super productive. Now, let's [download](https://code.visualstudio.com/) visual studio code.
 
 ### How to use Visual Studio Code
-To know  how to use visual studio code, watch the following [video](https://www.youtube.com/watch?v=vSyq1ENoovI)
+
+To know how to use visual studio code, watch the following [video](https://www.youtube.com/watch?v=vSyq1ENoovI)
 
 ## Introductin to HTML
 
@@ -819,6 +820,7 @@ List of blocking elements:
 <ul><ul> - to wrap order or unorder list
 <video></video> - to create a video content
 ```
+
 Now, let's use some of the blocking elements in following snippet of code.
 
 ```html
@@ -837,12 +839,12 @@ Now, let's use some of the blocking elements in following snippet of code.
     <main>
       <section>
         <h1 id="first-title">The Building Blocks of the web</h1>
-       <article>
+        <article>
           <p>
-          There is not website without HTML. Learn HTML and build websites and
-          web applications
-        </p>
-         </article>
+            There is not website without HTML. Learn HTML and build websites and
+            web applications
+          </p>
+        </article>
       </section>
 
       <section>
@@ -851,8 +853,8 @@ Now, let's use some of the blocking elements in following snippet of code.
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          </ul>
-        </section>
+        </ul>
+      </section>
       <section>
         <video src="./assets/video/js-project.mp4"></video>
       </section>
@@ -900,10 +902,10 @@ List of non-blocking elements
 <textarea> - to create a text area
 <time>- represents a specific period of time
 <tt> - to represent inline teletype
-<var> - is used to define a variable 
+<var> - is used to define a variable
 ```
 
-Let's make use of the above tags in the previous snippet of code. 
+Let's make use of the above tags in the previous snippet of code.
 
 ```html
 <!DOCTYPE html>
@@ -969,9 +971,9 @@ Let's make use of the above tags in the previous snippet of code.
             <source src="./assets/audios/audio_2.mp3" />
             </audio>
              <audio controls>
-      
+
         </section>
-       
+
     </main>
     <footer>
       <small>Copyright 2021 | Asabeneh Yetayeh</small>
@@ -1056,11 +1058,11 @@ Create the following text using the formatting elements.
 
 ## HTML5 Semantic Elements
 
-Semantic elements have special meaning and describes it  meaning to the browser.  For instance, *<div>* and *<span>* are not semantic elements because they do not give any meaning to a browser. However, *<header>* or *<foot>* is a semantic element because it clearly describe and defines its content. 
+Semantic elements have special meaning and describes it meaning to the browser. For instance, _<div>_ and _<span>_ are not semantic elements because they do not give any meaning to a browser. However, _<header>_ or _<foot>_ is a semantic element because it clearly describe and defines its content.
 List of some semantic elements:
 
 ```bash
- <article> 
+ <article>
  <aside>
  <details>
  <figcaption>
@@ -1070,20 +1072,19 @@ List of some semantic elements:
  <main>
  <mark>
  <nav>
- 
+
  <section>
  <summary>
  <time>
 ```
+
 To know more about each semantic element, you can read this [article](https://www.freecodecamp.org/news/semantic-html5-elements/).
-
-
 
 # Day 7
 
 ## HTML Document metadata
 
-The HTML document starts with a declaration followed by the root *<html>* tag. Inside the *<html>* tag, there is *<head>* and *<body>*. The *<head>* contains the HTML document *metadata*. Metadata contains information about the page that includes styles, scripts, and data to help software user and render the page. In this section, we will learn how to  use the different metadata. Look at the table blow understand the different metadata.
+The HTML document starts with a declaration followed by the root _<html>_ tag. Inside the _<html>_ tag, there is _<head>_ and _<body>_. The _<head>_ contains the HTML document _metadata_. Metadata contains information about the page that includes styles, scripts, and data to help software user and render the page. In this section, we will learn how to use the different metadata. Look at the table blow understand the different metadata.
 
 ![](./images/metadata.png)
 
@@ -1096,53 +1097,53 @@ Source, [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 <html>
   <head>
     <!-- character encoding for the HTML document -->
-    <meta charset='UTF-8' />
+    <meta charset="UTF-8" />
 
-     <!-- the following meta tags for Search engine optimization(SEO)-->
-    <meta name="description" content="30 Days of HTML Challenge">
-    <meta name="keywords" content="HTML, CSS, Web Development">
-    <meta name="author" content="Asabeneh Yetayeh">
+    <!-- the following meta tags for Search engine optimization(SEO)-->
+    <meta name="description" content="30 Days of HTML Challenge" />
+    <meta name="keywords" content="HTML, CSS, Web Development" />
+    <meta name="author" content="Asabeneh Yetayeh" />
     <!-- base url https://www.30daysofreact.com -->
     <base href=" https://www.30daysofreact.com" target="_blank" />
     <!-- Goes to the task bar on the browser-->
     <title>30 Days Of HTML</title>
-        <!-- to lik external css -->
+    <!-- to lik external css -->
 
-    <link rel='stylesheet' href="" />
-     <!-- inline styling is very tideous, we can also use internal style
+    <link rel="stylesheet" href="" />
+    <!-- inline styling is very tideous, we can also use internal style
      we can use tag name, id or class to select an element. Id is unique and class is for a single or group of elements
 
      When we select by id we use # followed by the id name and if we select by class name we use . followed by a class name.
      
      -->
-     <style>
-       .letter {
-         font-size: 68px;
-       }
-       #letter-h{
-         color:#e34c26;
-       }
-       #letter-t{
-         color:#264de4;
-       }
-      #letter-m{
-      color:#f0db4f;
-       }
-      #letter-l{
-color:#61dbfb
-       }
+    <style>
+      .letter {
+        font-size: 68px;
+      }
+      #letter-h {
+        color: #e34c26;
+      }
+      #letter-t {
+        color: #264de4;
+      }
+      #letter-m {
+        color: #f0db4f;
+      }
+      #letter-l {
+        color: #61dbfb;
+      }
     </style>
-     <!-- The script tag allows to write JS code -->
-     <script>
-       console.log('Welcome to 30 Days of JavaScript')
+    <!-- The script tag allows to write JS code -->
+    <script>
+      console.log('Welcome to 30 Days of JavaScript')
     </script>
   </head>
   <body>
     <header>
-      <span class="letter"  id='letter-h'>H</span>
-      <span class="letter"  id='letter-t'>T</span>
-      <span class="letter" id='letter-m'>M</span>
-      <span class="letter" id='letter-l'>L</span>
+      <span class="letter" id="letter-h">H</span>
+      <span class="letter" id="letter-t">T</span>
+      <span class="letter" id="letter-m">M</span>
+      <span class="letter" id="letter-l">L</span>
     </header>
     <main>
       <section>
@@ -1175,17 +1176,495 @@ Congratulations! Now, you knew about metadata.
 8. What tag do you use to write external style?
 9. What is the difference between internal style and external style?
 10. What HTML tag do you use to write a JavaScript code?
-   
+
 # Day 8
 
 ## HTML Form
 
-## Meta tags
+A form is one part of a website. Different websites handle user data using a HTML form. For instance, when we create an account or sign in to our account we fill an input field. Filling a form on a website is a common activity. Therefore, we have to know how to build a form.
+To create a form, we use _form_ element and the _form_ element wrap other input fields. The input field might be text, number, date, checkbox, radio button, file ,or others types.
+
+```html
+<form>
+  <label>First name:</label>
+  <input type="text" />
+  <input type="submit" value="Submit" />
+</form>
+```
+
+You can see the output of the above code here.
+
+<form>
+  <label>First name:</label>
+  <input type="text" />
+  <input type="submit" value="Submit" />
+</form>
+
+The HTML form code below can handle different kind of data. It handles almost any kind of data including file.
+
+```html
+<h1 class="section-title">Application Form</h1>
+<article class="form-article">
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="firstname">First Name</label>
+      <input type="text" id="firstname" placeholder="Your name" />
+    </div>
+    <div class="form-group">
+      <label for="lastname">Last Name</label>
+      <input id="lastname" type="text" placeholder="Your last name" />
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your email" />
+    </div>
+    <div class="form-group">
+      <label for="company">company</label>
+      <input id="company" type="text" placeholder="Your company name" />
+    </div>
+    <div class="form-group">
+      <label for="age">You age: </label>
+      <input type = "number" id="age" name="age' placeholder="Age" />
+    </div>
+    <div class="form-group">
+      <label for="date">Date of Birth</label>
+      <input id="date" type="datetime-local" />
+    </div>
+    <div class="form-group">
+      <p>What are your skills</p>
+      <input type="checkbox" id="html" />
+      <label for="html">HTML</label>
+      <br />
+      <input type="checkbox" id="css" />
+      <label for="css">CSS</label>
+      <br />
+      <input type="checkbox" id="js" />
+      <label for="js">JavaScript</label>
+      <br />
+      <input type="checkbox" id="react" />
+      <label for="js">React</label>
+      <br />
+      <input type="checkbox" id="redux" />
+      <label for="redux">Redux</label>
+    </div>
+    <div class="form-group">
+      <label for="color">Your favorite</label>
+      <input id="color" type="color" />
+    </div>
+
+    <div class="form-group">
+      <p>Gender</p>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+      <br />
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="other" name="gender" />
+      <label for="other">Other</label>
+    </div>
+
+    <div class="form-group">
+      <p>Select your country</p>
+      <select name="country" id="country">
+        <option value="">-Country-</option>
+        <option value="Finland">Finland</option>
+        <option value="Estonia">Estonia</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Norway">Norway</option>
+        <option value="Denmark">Denmark</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>Select your country</p>
+      <select name="course" id="course">
+        <option value="">-Select Course-</option>
+        <option value="html-css">Basis of HTML and CSS</option>
+        <option value="js">Modern JavaScript</option>
+        <option value="pyhton">Python</option>
+        <option value="react">React</option>
+        <option value="data-analysis">Data Analysis with Python</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Leave your message here</label> <br />
+      <textarea
+        cols="120"
+        rows="10"
+        id="message"
+        placeholder="Write your message here..."
+      ></textarea>
+    </div>
+    <div class="form-group">
+      <input type="file" id="file-input" />
+      <label for="file-input"><i class="fas fa-upload"></i>Upload File</label>
+    </div>
+    <div>
+      <input type="checkbox" id="agree" />
+      <label for="agree"
+        >Be sure that all the information is yours and true.</label
+      >
+    </div>
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>
+</article>
+```
+
+The output the above form look like this
+
+<div>
+<h1 class="section-title">Application Form</h1>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text" placeholder="Your last name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email" />
+              </div>
+              <div class="form-group">
+                <label for="company">company</label>
+                <input
+                  id="company"
+                  type="text"
+                  placeholder="Your company name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="age">You age: </label>
+                <input type = "number" id="age" name="age' placeholder="Age" />
+              </div>
+              <div class="form-group">
+                <label for="date">Date of Birth</label>
+                <input id="date" type="datetime-local" />
+              </div>
+              <div class="form-group">
+                <p>What are your skills</p>
+                <input type="checkbox" id="html" />
+                <label for="html">HTML</label>
+                <br />
+                <input type="checkbox" id="css" />
+                <label for="css">CSS</label>
+                <br />
+                <input type="checkbox" id="js" />
+                <label for="js">JavaScript</label>
+                <br />
+                <input type="checkbox" id="react" />
+                <label for="js">React</label>
+                <br />
+                <input type="checkbox" id="redux" />
+                <label for="redux">Redux</label>
+              </div>
+              <div class="form-group">
+                <label for="color">Your favorite</label>
+                <input id="color" type="color" />
+              </div>
+              <div class="form-group">
+                <p>Gender</p>
+                <input type="radio" id="female" name="gender" />
+                <label for="female">Female</label>
+                <br />
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male</label>
+                <br />
+                <input type="radio" id="other" name="gender" />
+                <label for="other">Other</label>
+              </div>
+              <div class="form-group">
+                <p>Select your country</p>
+                <select name="country" id="country">
+                  <option value="">-Country-</option>
+                  <option value="Finland">Finland</option>
+                  <option value="Estonia">Estonia</option>
+                  <option value="Sweden">Sweden</option>
+                  <option value="Norway">Norway</option>
+                  <option value="Denmark">Denmark</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <p>Select your country</p>
+                <select name="course" id="course">
+                  <option value="">-Select Course-</option>
+                  <option value="html-css">Basis of HTML and CSS</option>
+                  <option value="js">Modern JavaScript</option>
+                  <option value="pyhton">Python</option>
+                  <option value="react">React</option>
+                  <option value="data-analysis">
+                    Data Analysis with Python
+                  </option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Leave your message here</label> <br />
+                <textarea
+                  cols="120"
+                  rows="10"
+                  id="message"
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input type="file" id="file-input" />
+                <label for="file-input"
+                  ><i class="fas fa-upload"></i>Upload File</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="agree" />
+                <label for="agree"
+                  >Be sure that all the information is yours and true.</label
+                >
+              </div>
+              <div>
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+</div>
+
+What is matters the most is understanding how the HTML form works, this is not an exhaustive list of all the input fields. Whenever you would like to solve some problem, try to search it on the internet using a key word. Searching is also one the most important skill in software development.
 
 # Day 9
 
 ## HTML Table
 
+In this section, we will see how to create an HTML table. Table has an external border, header rows and header cell, body rows and its cells and it could have also a footer row. To make an HTML table, we need a _table_ element that wrap all the rows and the rows wrap all the data cells.
+
+```html
+<table>
+  <tr>
+    <td>Name</td>
+    <td>Gender</td>
+    <td>Country</td>
+  </tr>
+  <tr>
+    <td>Asabeneh</td>
+    <td>250</td>
+    <td>Finland</td>
+  </tr>
+</table>
+```
+
+Let us see the output of the above code
+
+<table>
+  <tr>
+    <td>Name</td>
+    <td>Gender</td>
+    <td>Country</td>
+  </tr>
+  <tr>
+  <td>Asabeneh</td>
+  <td>250</td>
+  <td>Finland</td>
+  </tr>
+</table>
+However, HTML table has thead, tbody and tfooter. Let us add thead and tbody to the above code. In addition, we can use th in the table head instead to td to make the table heading bold.
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Asabeneh</td>
+      <td>250</td>
+      <td>Finland</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+The out for the above code
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Asabeneh</td>
+      <td>250</td>
+      <td>Finland</td>
+    </tr>
+  </tbody>
+</table>
+
+The author of this challenge creates different challenges every year. Let us put all his challenges on a table.
+
+```html
+<html>
+  <head>
+    <title>30 Days Of HTML: Table</title>
+    <style>
+      /* Table CSS */
+      table,
+      td,
+      th {
+        border: 2px solid gray;
+        border-collapse: collapse;
+        border: 1px solid #a785df;
+      }
+      table {
+        margin-top: 15px;
+        width: 75%;
+      }
+      td {
+        padding-left: 10px;
+      }
+      th {
+        background-color: #7433df;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Challenge</th>
+          <th>Days</th>
+          <th>Time</th>
+          <th>Stars(K)</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>30 Days of Python</td>
+          <td>30</td>
+          <td>November 2019</td>
+          <td>4.6K</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-Python">Link</a>
+          </td>
+        </tr>
+        <tr>
+          <td>30 Days of JavaScript</td>
+          <td>30</td>
+          <td>January 2020</td>
+          <td>6.8K</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-JavaScript">Link</a>
+          </td>
+        </tr>
+        <tr>
+          <td>30 Days of React</td>
+          <td>30</td>
+          <td>October 2020</td>
+          <td>5.6K</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-React">Link</a>
+          </td>
+        </tr>
+        <tr>
+          <td>30 Days of HTML</td>
+          <td>30</td>
+          <td>February 2011</td>
+          <td>33</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-HTML">Link</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+```
+
+<html>
+  <head>
+    <title>30 Days Of HTML: Table</title>
+    <style>
+      /* Table CSS */
+      table,
+      td,
+      th {
+        border: 2px solid gray;
+        border-collapse: collapse;
+        border: 1px solid #a785df;
+      }
+      table {
+        margin-top: 15px;
+        width: 75%;
+      }
+      td {
+        padding-left: 10px;
+      }
+      th {
+        background-color: #7433df;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Challenge</th>
+          <th>Days</th>
+          <th>Time</th>
+          <th>Stars(K)</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>30 Days of Python</td>
+          <td>30</td>
+          <td>November 2019</td>
+          <td>4.6K</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-Python">Link</a>
+          </td>
+        </tr>
+        <tr>
+          <td>30 Days of JavaScript</td>
+          <td>30</td>
+          <td>January 2020</td>
+          <td>6.8K</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-JavaScript">Link</a>
+          </td>
+        </tr>
+        <tr>
+          <td>30 Days of React</td>
+          <td>30</td>
+          <td>October 2020</td>
+          <td>5.6K</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-React">Link</a>
+          </td>
+        </tr>
+        <tr>
+          <td>30 Days of HTML</td>
+          <td>30</td>
+          <td>February 2011</td>
+          <td>33</td>
+          <td>
+            <a href="https://github.com/Asabeneh/30-Days-Of-HTML">Link</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
 # Day 10
 
 ## Lists
@@ -1193,3 +1672,5 @@ Congratulations! Now, you knew about metadata.
 # Day 11
 
 ## File Paths
+
+## Meta tags
