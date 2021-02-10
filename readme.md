@@ -45,6 +45,7 @@
   - [Exercises](#exercises-2)
 - [Day 6](#day-6)
   - [HTML5 Semantic Elements](#html5-semantic-elements)
+  - [Exercise](#exercise-2)
 - [Day 7](#day-7)
   - [HTML Document metadata](#html-document-metadata)
   - [Exercises](#exercises-3)
@@ -60,6 +61,8 @@
 - [Day 11](#day-11)
   - [File Paths](#file-paths)
   - [Meta tags](#meta-tags)
+- [Day 12](#day-12)
+  - [Under utilized HTML elements](#under-utilized-html-elements)
 
 | # Day |             Topics             |
 | ----- | :----------------------------: |
@@ -1084,6 +1087,10 @@ List of some semantic elements:
 
 To know more about each semantic element, you can read this [article](https://www.freecodecamp.org/news/semantic-html5-elements/).
 
+## Exercise
+
+Apply semantic elements on your HTML document
+
 # Day 7
 
 ## HTML Document metadata
@@ -1541,7 +1548,7 @@ Output of the above code
 
 <dl>
   <dt>HTML</dt>
-  <dd>HTML(HyperText Markup Language) is the build block the web.</dd>
+  <dd>HTML(HyperText Markup Language) is the building block the web.</dd>
   <dt>CSS</dt>
   <dd>CSS(Cascading Style Sheet) that make HTML page look beautiful. <dd>
   <dt>JavaScript</dt>
@@ -1555,3 +1562,7 @@ Output of the above code
 ## File Paths
 
 ## Meta tags
+
+# Day 12
+
+## Under utilized HTML elements
