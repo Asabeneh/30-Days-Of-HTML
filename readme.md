@@ -54,6 +54,9 @@
   - [HTML Table](#html-table)
 - [Day 10](#day-10)
   - [Lists](#lists)
+    - [Ordered List](#ordered-list)
+    - [Unordered List](#unordered-list)
+    - [Description List](#description-list)
 - [Day 11](#day-11)
   - [File Paths](#file-paths)
   - [Meta tags](#meta-tags)
@@ -389,6 +392,7 @@ In this section, we will start writing the DOM tree of an HTML document or file.
 ### Declaration
 
 Before the root element, there is a declaration. This declaration tells the browser that the document is an HTML. Therefore, the browser render it to the way an HTML suppose to be rendered.
+
 This is the code to declare an HTML. The declaration is not part of the DOM tree.
 
 ```html
@@ -399,7 +403,7 @@ This is the code to declare an HTML. The declaration is not part of the DOM tree
 
 The _html_ element is the root of the DOM tree and is the parent of _head_ and _body_.
 
-The DOM try has be wrapped by the html tag.
+The DOM try has to be wrapped by the html tag.
 
 ```html
 <!DOCTYPE html>
@@ -1192,13 +1196,7 @@ To create a form, we use _form_ element and the _form_ element wrap other input 
 </form>
 ```
 
-You can see the output of the above code here.
-
-<form>
-  <label>First name:</label>
-  <input type="text" />
-  <input type="submit" value="Submit" />
-</form>
+You can try the output of the above code on visual studio code.
 
 The HTML form code below can handle different kind of data. It handles almost any kind of data including file.
 
@@ -1313,121 +1311,7 @@ The HTML form code below can handle different kind of data. It handles almost an
 </article>
 ```
 
-The output the above form look like this
-
-<div>
-<h1 class="section-title">Application Form</h1>
-            <form class="contact-form">
-              <div class="form-group">
-                <label for="firstname">First Name</label>
-                <input type="text" id="firstname" placeholder="Your name" />
-              </div>
-              <div class="form-group">
-                <label for="lastname">Last Name</label>
-                <input id="lastname" type="text" placeholder="Your last name" />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Your email" />
-              </div>
-              <div class="form-group">
-                <label for="company">company</label>
-                <input
-                  id="company"
-                  type="text"
-                  placeholder="Your company name"
-                />
-              </div>
-              <div class="form-group">
-                <label for="age">You age: </label>
-                <input type = "number" id="age" name="age' placeholder="Age" />
-              </div>
-              <div class="form-group">
-                <label for="date">Date of Birth</label>
-                <input id="date" type="datetime-local" />
-              </div>
-              <div class="form-group">
-                <p>What are your skills</p>
-                <input type="checkbox" id="html" />
-                <label for="html">HTML</label>
-                <br />
-                <input type="checkbox" id="css" />
-                <label for="css">CSS</label>
-                <br />
-                <input type="checkbox" id="js" />
-                <label for="js">JavaScript</label>
-                <br />
-                <input type="checkbox" id="react" />
-                <label for="js">React</label>
-                <br />
-                <input type="checkbox" id="redux" />
-                <label for="redux">Redux</label>
-              </div>
-              <div class="form-group">
-                <label for="color">Your favorite</label>
-                <input id="color" type="color" />
-              </div>
-              <div class="form-group">
-                <p>Gender</p>
-                <input type="radio" id="female" name="gender" />
-                <label for="female">Female</label>
-                <br />
-                <input type="radio" id="male" name="gender" />
-                <label for="male">Male</label>
-                <br />
-                <input type="radio" id="other" name="gender" />
-                <label for="other">Other</label>
-              </div>
-              <div class="form-group">
-                <p>Select your country</p>
-                <select name="country" id="country">
-                  <option value="">-Country-</option>
-                  <option value="Finland">Finland</option>
-                  <option value="Estonia">Estonia</option>
-                  <option value="Sweden">Sweden</option>
-                  <option value="Norway">Norway</option>
-                  <option value="Denmark">Denmark</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <p>Select your country</p>
-                <select name="course" id="course">
-                  <option value="">-Select Course-</option>
-                  <option value="html-css">Basis of HTML and CSS</option>
-                  <option value="js">Modern JavaScript</option>
-                  <option value="pyhton">Python</option>
-                  <option value="react">React</option>
-                  <option value="data-analysis">
-                    Data Analysis with Python
-                  </option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="message">Leave your message here</label> <br />
-                <textarea
-                  cols="120"
-                  rows="10"
-                  id="message"
-                  placeholder="Write your message here..."
-                ></textarea>
-              </div>
-              <div class="form-group">
-                <input type="file" id="file-input" />
-                <label for="file-input"
-                  ><i class="fas fa-upload"></i>Upload File</label
-                >
-              </div>
-              <div>
-                <input type="checkbox" id="agree" />
-                <label for="agree"
-                  >Be sure that all the information is yours and true.</label
-                >
-              </div>
-              <div>
-                <input type="submit" value="Submit" />
-              </div>
-            </form>
-</div>
+Try the output the above code on visual studio.
 
 What is matters the most is understanding how the HTML form works, this is not an exhaustive list of all the input fields. Whenever you would like to solve some problem, try to search it on the internet using a key word. Searching is also one the most important skill in software development.
 
@@ -1466,7 +1350,8 @@ Let us see the output of the above code
   <td>Finland</td>
   </tr>
 </table>
-However, HTML table has thead, tbody and tfooter. Let us add thead and tbody to the above code. In addition, we can use th in the table head instead to td to make the table heading bold.
+
+However, HTML table has _thead_, \*tbody and tfooter. Let us add thead and tbody to the above code. In addition, we can use th in the table head instead to td to make the table heading bold.
 
 ```html
 <table>
@@ -1487,7 +1372,7 @@ However, HTML table has thead, tbody and tfooter. Let us add thead and tbody to 
 </table>
 ```
 
-The out for the above code
+Try the output of the above code using visual studio code.
 
 <table>
   <thead>
@@ -1588,86 +1473,82 @@ The author of this challenge creates different challenges every year. Let us put
 </html>
 ```
 
-<html>
-  <head>
-    <title>30 Days Of HTML: Table</title>
-    <style>
-      /* Table CSS */
-      table,
-      td,
-      th {
-        border: 2px solid gray;
-        border-collapse: collapse;
-        border: 1px solid #a785df;
-      }
-      table {
-        margin-top: 15px;
-        width: 75%;
-      }
-      td {
-        padding-left: 10px;
-      }
-      th {
-        background-color: #7433df;
-        color: white;
-      }
-    </style>
-  </head>
-  <body>
-    <table>
-      <thead>
-        <tr>
-          <th>Challenge</th>
-          <th>Days</th>
-          <th>Time</th>
-          <th>Stars(K)</th>
-          <th>URL</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>30 Days of Python</td>
-          <td>30</td>
-          <td>November 2019</td>
-          <td>4.6K</td>
-          <td>
-            <a href="https://github.com/Asabeneh/30-Days-Of-Python">Link</a>
-          </td>
-        </tr>
-        <tr>
-          <td>30 Days of JavaScript</td>
-          <td>30</td>
-          <td>January 2020</td>
-          <td>6.8K</td>
-          <td>
-            <a href="https://github.com/Asabeneh/30-Days-Of-JavaScript">Link</a>
-          </td>
-        </tr>
-        <tr>
-          <td>30 Days of React</td>
-          <td>30</td>
-          <td>October 2020</td>
-          <td>5.6K</td>
-          <td>
-            <a href="https://github.com/Asabeneh/30-Days-Of-React">Link</a>
-          </td>
-        </tr>
-        <tr>
-          <td>30 Days of HTML</td>
-          <td>30</td>
-          <td>February 2011</td>
-          <td>33</td>
-          <td>
-            <a href="https://github.com/Asabeneh/30-Days-Of-HTML">Link</a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
-</html>
+Try the output the above code on visual studio
+
 # Day 10
 
 ## Lists
+
+Lists are important to list down items. In HTML, we have different list types such as ordered list, unordered list and description list.
+
+### Ordered List
+
+If you want to be a web developer, learn the following technologies according to order:
+
+```html
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>Redux</li>
+  <li>Node</li>
+  <li>MongoDB</li>
+  <li>GatsBy</li>
+</ol>
+```
+
+### Unordered List
+
+We use undordered list if we do not interested in the order or hierarch of the list.
+
+For instance, if we like to list down the Scandinavian Countries.
+
+```html
+<ul>
+  <li>Finland</li>
+  <li>Sweden</li>
+  <li>Norway</li>
+  <li>Denmark</li>
+  <li>Iceland</li>
+</ul>
+```
+
+### Description List
+
+A description list indent the list to the right.
+
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>HTML(HyperText Markup Language) is the build block the web.</dd>
+  <dt>CSS</dt>
+  <dd>CSS(Cascading Style Sheet) that make HTML page look beautiful.</dd>
+  <dd></dd>
+  <dt>JavaScript</dt>
+  <dd>
+    JavaScript is a programming language that can add interactivity to websites
+  </dd>
+  <dt>React</dt>
+  <dd>
+    React is a modern JavaScript library that was initial released on May 29,
+    2013.
+  </dd>
+</dl>
+```
+
+Output of the above code
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HTML(HyperText Markup Language) is the build block the web.</dd>
+  <dt>CSS</dt>
+  <dd>CSS(Cascading Style Sheet) that make HTML page look beautiful. <dd>
+  <dt>JavaScript</dt>
+  <dd>JavaScript is a programming language that can add interactivity to websites</dd>
+  <dt>React</dt>
+  <dd>React is a modern JavaScript library that was initial released on May 29, 2013.</dd>
+</dl>
 
 # Day 11
 
