@@ -73,24 +73,10 @@
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
-<div>
-<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
-</div>
-
 <div align="center">
   <h1> 30 Days Of HTML: Introduction</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> February, 2020</small>
-</sub>
+
 
 </div>
 </div>
@@ -1048,7 +1034,7 @@ My favorite language is not <del>Python</del>. It is <ins>JavaScript</ins>
 
 <pre>I like to make break her
 I like to start a new line
-This is the third line. The pre tag is 
+This is the third line. The pre tag is
 good to use when a space is need to be
 preserved for instance for poem.</pre>
 
@@ -1125,7 +1111,7 @@ Source, [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
      we can use tag name, id or class to select an element. Id is unique and class is for a single or group of elements
 
      When we select by id we use # followed by the id name and if we select by class name we use . followed by a class name.
-     
+
      -->
     <style>
       .letter {
