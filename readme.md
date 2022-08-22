@@ -1326,7 +1326,7 @@ What is matters the most is understanding how the HTML form works, this is not a
 
 ## HTML Table
 
-In this section, we will see how to create an HTML table. Table has an external border, header rows and header cell, body rows and its cells and it could have also a footer row. To make an HTML table, we need a _table_ element that wrap all the rows and the rows wrap all the data cells.
+In this section, we will see how to create an HTML table. Table has an external border, header rows and header cell, body rows and its cells and it could have also a footer row. To make an HTML table, we need a _table_ element that wrap all the rows and the rows wrap all the data cells. To know more about HTML table you can refer this [link](https://www.scaler.com/topics/html/tables-in-html/)
 
 ```html
 <table>
