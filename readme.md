@@ -269,7 +269,7 @@ The initial release of HTML was 1993. The first version of HTML was written by T
 
 The word HTML is an acronym. That is stands for Hypertext Markup Language. It is the standard markup languages to develop websites. HTML is the build block of the web that allows building layouts of page using HTML elements. HTML is not not a programming language instead it is a markup language.
 
-HTML code will be rendered by a browser and it give a human readable output. Look at the figure bellow to understand better how the HTML code convert to a website using a browser.
+HTML [code](https://www.interviewbit.com/html-cheat-sheet/) will be rendered by a browser and it give a human readable output. Look at the figure bellow to understand better how the HTML code convert to a website using a browser.
 
 ![](images/html_code_output.png)
 
