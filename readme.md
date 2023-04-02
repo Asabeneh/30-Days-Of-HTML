@@ -132,6 +132,10 @@ The main goal of this challenge is to teach the core building block of the web t
 
 ⚠️ This is not a proof read material. You may find typo, grammar and some technical errors here and there. The content will be updated now and then. Therefore, do not be surprised you find a typo or a grammar or other mistakes.
 
+This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
+
+The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfHTML challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com//)
+
 ## Requirements
 
 The minimum requirement to follow this challenge:
