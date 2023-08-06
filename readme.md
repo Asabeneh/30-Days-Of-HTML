@@ -159,7 +159,7 @@ A front end(client-side) is a website that a user can see and interact with. It 
 - CSS
 - JavaScript
 
-There are hundreds of JavaScript that allows building a dynamic web applications. Currently, the three most popular JavaScript libraries are:
+There are hundreds of JavaScript libraries that allows building a dynamic web applications. Currently, the three most popular JavaScript libraries are:
 
 - React
 - Vue
