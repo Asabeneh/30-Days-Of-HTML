@@ -1065,6 +1065,10 @@ preserved for instance for poem.</pre>
 Create the following text using the formatting elements.
 ![Text formatting](./images/text-formating.png)
 
+Answer to HTML Formatting Exercie:
+
+<img width="947" alt="image" src="https://github.com/anupama12sg/30-Days-Of-HTML/assets/59641189/4e5ed848-8f13-43b8-9fb9-19f416d26ec8">
+
 # Day 6
 
 ## HTML5 Semantic Elements
